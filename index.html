@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WebCalculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- -->
+    <body>
+        <div class="welcome-title">
+            <h1>Web calculator</h1>
+            Welcome to this our calulator!
+        </div>
+        <div style="height: 30px;"></div>
+        <div class="calculator-framework">
+            <div class="answer">
+                <h3 id="answer">0</h3>
+            </div>
+            <div class="row1">
+                <button class="button" onclick="number('1')">1</button>
+                <button class="button" onclick="number('2')">2</button>
+                <button class="button" onclick="number('3')">3</button>
+                <button class="button" onclick="operator('*')">X</button>
+            </div>
+            <div class="row2">
+                <button class="button" onclick="number('4')">4</button>
+                <button class="button" onclick="number('5')">5</button>
+                <button class="button" onclick="number('6')">6</button>
+                <button class="button" onclick="operator('+')">+</button>
+            </div>
+            <div class="row3">
+                <button class="button" onclick="number('7')">7</button>
+                <button class="button" onclick="number('8')">8</button>
+                <button class="button" onclick="number('9')">9</button>
+                <button class="button" onclick="operator('-')">-</button>
+            </div>
+            <div class="row4">
+                <button class="button" onclick="clean()">AC</button>
+                <button class="button" onclick="number('0')">0</button>
+                <button class="button" onclick="operator('/')">/</button>
+                <button class="button" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+    <!--  --> 
+    <footer>
+        Software Engineer Ernesto Luckie <br>
+        Developed by DaMoogle, Kalecon Inc.
+    </footer>
+</html>
